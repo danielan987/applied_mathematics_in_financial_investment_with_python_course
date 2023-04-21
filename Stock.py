@@ -1,10 +1,4 @@
-
-
-#see again one more time
-
-#update script to git
-#git push --all
-
+# Reference
 # https://python.plainenglish.io/measure-stock-volatility-using-betas-in-python-d6411612e7bd
 
 import yfinance as yf
