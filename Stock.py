@@ -1,7 +1,6 @@
-#set up
-#git remote add origin https://github.com/danielan987/IVV_Stock.git
 
-#checking now
+
+#see again one more time
 
 #update script to git
 #git push --all
