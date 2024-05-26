@@ -57,9 +57,10 @@ plt.show()
 # Calculate the R-squared value
 r_squared = r2_score(y, predictions)
 
+# Metrics
+print(f'Mean Squared Error: {mse}')
 print(f'Alpha (intercept): {alpha}')
 print(f'Beta (slope): {beta}')
-print(f'Mean Squared Error: {mse}')
 print(f'R-squared: {r_squared}')
 
 # Plot the regression line using seaborn
@@ -71,4 +72,3 @@ plt.ylabel('Stock Returns')
 plt.legend()
 plt.title(f'Regression of {stock_symbol} returns against {market_symbol} returns')
 plt.show()
-
