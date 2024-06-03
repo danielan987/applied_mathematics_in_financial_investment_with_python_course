@@ -39,8 +39,9 @@ beta = model.coef_[0]
 # Predict the stock returns using the market returns
 predictions = model.predict(X)
 
-# Calculate the Mean Squared Error (MSE)
-mse = mean_squared_error(y, predictions)
+# Calculate the Root Mean Squared Error (RMSE)
+rmse = mean_squared_error(y, predictions, squared=False)
+
 
 # Plot the residuals to check for linearity
 residuals = y - predictions
@@ -58,7 +59,7 @@ plt.show()
 r_squared = r2_score(y, predictions)
 
 # Metrics
-print(f'Mean Squared Error: {mse}')
+print("Root Mean Squared Error:", rmse)
 print(f'Alpha (intercept): {alpha}')
 print(f'Beta (slope): {beta}')
 print(f'R-squared: {r_squared}')
