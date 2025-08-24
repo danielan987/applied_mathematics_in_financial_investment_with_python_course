@@ -1,4 +1,4 @@
-# Applied Mathematics in Financial Investment with Python Course (Work in progress)
+# Applied Mathematics in Financial Investment with Python Course (Work in Progress)
 
 ## Requirements
 
