@@ -1,5 +1,12 @@
 # Applied Mathematics in Financial Investment with Python Course 
 
+## Background
+
+This repository displays how mathematics is applied in the field of financial investment: 
+- Exponential Moving Average (technical_indicators.ipynb)
+- Linear Algebra (capital_asset_pricing_model.ipynb)
+- Calculus (xgboost_model.ipynb)
+
 ## Requirements
 
 - Python 3.12
