@@ -8,3 +8,4 @@ seaborn==0.13.2
 yfinance==0.2.37
 certifi==2023.11.17
 mplfinance==0.12.10b0
+xgboost==3.2.0
